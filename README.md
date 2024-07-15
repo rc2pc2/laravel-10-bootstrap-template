@@ -58,8 +58,8 @@ Template to generate a new standard and simple project using Laravel 10.x, Boots
 - **Open** the cloned folder with a `terminal`
 - Copy and paste the `.env.example` file and rename it into `.env` **without removing the `env.example` file**
 - Run `composer install` to install all our composer packages
-- Run `php artisan key:generate` to generate our custom application key
 - Run `npm i` to install all our npm packages
+- Run `php artisan key:generate` to generate our custom application key
 - Run on two separeted terminals:
     - run `npm run dev` to build iteratively our front-end packages and code
     - run `php artisan serve` to build iteratively our back-end packages and code
