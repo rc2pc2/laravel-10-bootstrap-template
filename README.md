@@ -31,8 +31,7 @@ Template to generate a new standard and simple project using Laravel 9.2, Bootst
 
                 resolve: {
                     alias: {
-                            '~resources' : '/resources/',
-                          '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
+                            '~resources' : '/resources/'
   
                     }
                 }
