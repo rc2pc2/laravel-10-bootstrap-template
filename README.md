@@ -6,7 +6,7 @@
 </p>
 
 # Template for a Laravel 10.0 + SCSS + Boostrap 5.x
-Template to generate a new standard and simple project using Laravel 9.2, Bootstrap 5.x and SCSS (SASS with SCSS Syntax).
+Template to generate a new standard and simple project using Laravel 10.x, Bootstrap 5.x and SCSS (SASS with SCSS Syntax).
 
 ## Steps to build another template just like this one:
 - Execute these commands on your terminal, within your project:
