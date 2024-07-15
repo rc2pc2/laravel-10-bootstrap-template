@@ -9,9 +9,7 @@
 Template to generate a new standard and simple project using Laravel 9.2, Bootstrap 5.x and SCSS (SASS with SCSS Syntax).
 
 ## Steps to build another template just like this one:
-- Edit `package.json`:
-    - Update `laravel-vite-plugin` to version `^0.6.0`
-    - Update `vite` to version `^3.0.0`
+- Execute these commands on your terminal, within your project:
 - Remove POSTCSS from our application `npm remove postcss`
 - Execute `npm i`
 - Install SASS `npm i --save-dev sass`
@@ -33,7 +31,9 @@ Template to generate a new standard and simple project using Laravel 9.2, Bootst
 
                 resolve: {
                     alias: {
-                        '~resources' : '/resources/',
+                            '~resources' : '/resources/',
+                          '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
+  
                     }
                 }
             });
